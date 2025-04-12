@@ -1,0 +1,13 @@
+[package]
+name = "copy-yt-thumbnail"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "thumb"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5.36", features = ["derive"] }
+cli-clipboard = "0.4.0"
+url = "2.5.4"
